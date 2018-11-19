@@ -31,5 +31,5 @@ Realiseert u zich dat er aan de data nog een hoop te verbeteren valt. Ik heb me 
 Dankzij de in de lijst vermeldde adressen en het werk van [HisGis](http://www.hisgis.nl/), dat recentelijk de 26000+ adressen van de Loman Buurtkaarten heeft ingetekend (link volgt zodra bekend), kunnen we al heel wat gangen op de kaart tonen.
 
 - [gangen die reeds op Adamlink voorkwamen](adamlink.geojson), deels geautomatiseerd gekoppeld op basis van naam en nabijheid, deels handmatig (484 namen, 337 gangen)
-- [gangen geplaatst op basis van het 1876 nummer]()
-- [gangen geplaatst op basis van het kleinnummer]()
+- [gangen geplaatst op basis van het 1876 nummer](adressen1876.geojson)
+- [gangen geplaatst op basis van het kleinnummer](kleinnummers.geojson)
