@@ -24,7 +24,7 @@ Elk record heeft de volgende velden:
 - `nr1876` het aan de gang gelegen huisnummer volgens de 'huidige' nummering, zoals te zien op de Loman buurtkaarten
 - `tekst` de oorspronkelijke tekst zoals die in de lijst voorkomt
 
-Realiseert u zich dat er aan de data nog een hoop te verbeteren valt. Ik heb me nu nog vooral gericht op de gangnamen die al door Breen genoemd worden (in de lijst van Blok herkenbaar aan de 'B:' achter de gangnaam, in de data ook aan de waarde 'ja' in het veld `breen`).
+Er komt nog een hoop voor verdere schoning en verbetering in aanmerking. Ik heb me nu nog vooral gericht op de gangnamen die al door Breen genoemd worden (in de lijst van Blok herkenbaar aan de 'B:' achter de gangnaam, in de data ook aan de waarde 'ja' in het veld `breen`).
 
 ## Van adres naar geometrie
 
