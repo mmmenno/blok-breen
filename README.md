@@ -8,7 +8,7 @@ Het werk bouwt voort op de [Alphabetische Lijst van Gangen te Amsterdam](https:/
 
 ## Van naslagwerk naar data
 
-Om de lijst wat [gestructureerder](bb.csv) te maken (voor gebruik in machinale toepassingen) heb ik het tekstdocument opgeknipt in records en elk record een id gegeven, het zgn. BBid (van Breen en Blok, natuurlijk).
+Om de lijst wat [gestructureerder](bb.csv) te maken (voor gebruik in machinale toepassingen) heb ik het tekstdocument opgeknipt in records en elk record een id gegeven, het zgn. BBid (naar Breen en Blok, natuurlijk).
 
 Zowel gangen als straten heb ik zo veel mogelijk gekoppeld aan [Adamlink straten](https://adamlink.nl/geo/streets/list).
 
@@ -30,8 +30,18 @@ Realiseert u zich dat er aan de data nog een hoop te verbeteren valt. Ik heb me 
 
 Dankzij de in de lijst vermeldde adressen en het werk van [HisGis](http://www.hisgis.nl/), dat recentelijk de 25000+ adressen van de Loman Buurtkaarten heeft ingetekend (link volgt zodra bekend), kunnen we een aanzienlijk deel van de gangen op de kaart tonen.
 
-- [gangen die reeds op Adamlink voorkwamen](adamlink.geojson), deels geautomatiseerd gekoppeld op basis van naam en nabijheid, deels handmatig (484 namen, 337 gangen)
+- [gangen die reeds op Adamlink voorkwamen](adamlink.geojson), grotendeels geautomatiseerd gekoppeld op basis van naam en nabijheid, deels handmatig (484 namen, 337 gangen)
 - [gangen geplaatst op basis van het 1876 nummer](adressen1876.geojson) (393 namen, 313 gangen)
 - [gangen geplaatst op basis van het kleinnummer](kleinnummers.geojson) (186 namen, 159 gangen)
 
+De nauwkeurigheid waarmee de 1876 adressen zijn geplaatst is groot. Dit ligt anders bij plaatsing op basis van de kleinnummers. HisGis zelf maant tot voorzichtig gebruik van de kleinnummerlocaties, omdat die vooral gebaseerd zijn op het niet altijd even betrouwbare [omnummerregister](https://www.amsterdam.nl/stadsarchief/archief/downloads/omnummerregister/).
+
+Nu is het zo dat de gangen met 1876 adres meestal ook een kleinnummer hebben. Het verschil daartussen heb ik opgemeten, en dat bleek gemiddeld 24 meter (laten we de 14 gevallen boven de 100 meter buiten beschouwing 16 meter). Wat opviel is dat de kleinnummers vaak aan de straat lagen, terwijl de 1876 nummers de in het blok gelegen adressen waren - dat verklaart ook een deel van de afstand. Al met al vond ik dat voldoende vertrouwen geven om de gangen met enkel een kleinnummer toch te geocoderen.
+
 Alle gangnamen en de bij Adamlink nog onbekende gangen worden binnenkort opgenomen in het Adamlink stratenregister.
+
+## licentie
+
+[![cc-by-sa](https://licensebuttons.net/l/by-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/) 
+
+De BB-dataset wordt aangeboden onder een [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) licentie
