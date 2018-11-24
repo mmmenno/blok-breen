@@ -38,7 +38,7 @@ De nauwkeurigheid waarmee de 1876 adressen zijn geplaatst is groot. Dit ligt and
 
 Nu is het zo dat de gangen met 1876 adres meestal ook een kleinnummer hebben. Het verschil daartussen heb ik opgemeten, en dat bleek gemiddeld 24 meter (laten we de 14 gevallen boven de 100 meter buiten beschouwing 16 meter). Wat opviel is dat de kleinnummers vaak aan de straat lagen, terwijl de 1876 nummers de in het blok gelegen adressen waren - dat verklaart ook een deel van de afstand. Al met al vond ik dat voldoende vertrouwen geven om de gangen met enkel een kleinnummer toch te geocoderen.
 
-Alle gangnamen en de bij Adamlink nog onbekende gangen worden binnenkort opgenomen in het Adamlink stratenregister.
+Op de naamloze gangen na zijn alle gangen die in de drie geojsonbestanden voorkomen inmiddels opgenomen in het Adamlink stratenregister.
 
 ## licentie
 
